@@ -18,7 +18,7 @@ namespace TestForItMonitoring.Context
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=localhost\\SQLEXPRESS05;Database=dbo1;Trusted_Connection=True;");
+            optionsBuilder.UseSqlServer("ConnectionString");
         }
     }
 }
